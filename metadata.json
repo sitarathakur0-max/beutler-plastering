@@ -1,0 +1,6 @@
+{
+  "name": "Beutler AG – Plastering & Painting Craftsmen",
+  "description": "Professional plastering and painting services by Beutler AG in Heimenschwand, Switzerland. Interior & exterior wall finishes, surface preparation, and fine craftsmanship.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

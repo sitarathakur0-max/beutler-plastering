@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-display: "Syne", "Plus Jakarta Sans", sans-serif;
+
+  --color-stone-canvas: #f7f5f0;
+  --color-stone-surface: #efece5;
+  --color-stone-card: #ffffff;
+  --color-stone-border: #ded8cb;
+  --color-stone-darkborder: #2c2f35;
+  
+  --color-terracotta: #c45832;
+  --color-terracotta-dark: #9e4120;
+  --color-terracotta-muted: #faeee9;
+  
+  --color-charcoal-deep: #141618;
+  --color-charcoal-surface: #1d2024;
+  --color-charcoal-text: #2c2f34;
+  --color-charcoal-muted: #5e646e;
+
+  --color-mineral-ochre: #b89868;
+}
+
+/* Custom craftsmanship subtle texture */
+.bg-tactile-grid {
+  background-image: linear-gradient(to right, rgba(222, 216, 203, 0.35) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(222, 216, 203, 0.35) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.bg-tactile-dots {
+  background-image: radial-gradient(rgba(196, 88, 50, 0.18) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
